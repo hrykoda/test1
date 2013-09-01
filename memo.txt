@@ -1,5 +1,14 @@
 adb shell am start -n jp.naver.SJLGWR/com.hangame.hsp.unityPlugin.HSPUnityPluginActivity
 
+android.permission.INJECT_EVENTS
+http://matsuhilog.blogspot.jp/2010/12/androidpermissioninjectevents.html
+
+[独習android]シェルコマンド（シェルスクリプトなど）をアプリから実行する
+http://d.hatena.ne.jp/yujimny/20110422/1303433791
+
+AndroidにUSB ADB経由でキーイベントとかタッチイベントを送り込む
+http://plog.web-hack.org/2013/02/androidusb-adb.html
+
 @ 3@ 57@ 11768
 @ 3@ 48@ 3
 @ 3@ 53@ 77
