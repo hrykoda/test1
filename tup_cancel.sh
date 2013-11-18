@@ -10,7 +10,12 @@ else
 fi
 dev=/dev/input/event$opt
 
+if [ -f /Develop/adt-bundle-mac/sdk/platform-tools/adb ]
+then
 adb="/Develop/adt-bundle-mac/sdk/platform-tools/adb $param"
+else
+adb=adb
+fi
 
 $adb shell sendevent $dev 3 57 0
 $adb shell sendevent $dev 3 48 7
